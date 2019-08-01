@@ -1,0 +1,22 @@
+name: TestPlugin
+version: 0.0.2
+author: Midas67
+main: me.midas.testplugin.Main
+
+commands:
+  balance:
+    description: Shows the player balance
+    aliases: [bal,money,cash]
+    usage: /balance <playername>
+  setbalance:
+    description: Sets the player balance
+    aliases: [setbal,setmoney,setcash]
+    usage: /setbalance <playername> <amount>
+  addbalance:
+    description:  Adds balance to player
+    aliases: [addbal,addmoney,addcash]
+    usage: /addbalance <playername> <amount>
+  addbalanceoffline:
+    description: Adds balance to offlineplayer
+    aliases: [addbaloff,addmoneyoff,addcashoff]
+    usage: /addbalanceoffline <playername> <amount>

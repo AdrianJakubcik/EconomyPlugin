@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Testing Plugin:jar">
+    <output-path>$PROJECT_DIR$/../../../Admin/Documents/Locker/Locker/Minecraft Server (craftbukkit)/plugins</output-path>
+    <root id="archive" name="Testing Plugin.jar">
+      <element id="module-output" name="Testing Plugin" />
+    </root>
+  </artifact>
+</component>
